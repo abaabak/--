@@ -29,3 +29,5 @@ repo.create_file(file_name, f"Committing daily activity file {file_name}", "")
 os.remove(file_name)
 
 print(f"Daily activity committed to {repo_name} repository.")
+
+# 生成每天提交的文件名（可以根据需要修改）
