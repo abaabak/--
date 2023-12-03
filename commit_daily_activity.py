@@ -7,7 +7,7 @@ github_username = "abaabak"
 repo_name = "huoyue"
 
 # 你的GitHub访问令牌
-github_token = "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"
+github_token = ""
 
 # 创建GitHub对象
 g = Github(github_token)
