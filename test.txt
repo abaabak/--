@@ -1,3 +1,107 @@
+# 初始化Git仓库
+git init
+
+# 查看文件状态
+git status
+
+# 添加所有改动文件到暂存区
+git add .
+
+# 提交改动
+git commit -m "注释语句"
+
+# 查看提交历史
+git log
+
+# 查看引用日志
+git reflog
+
+# 撤销上一次提交
+git revert HEAD
+
+# 回退到指定版本
+git reset --hard <commit-id>
+
+# 恢复文件到最新提交状态
+git checkout -- <filename>
+
+# 取消已暂存文件的更新
+git reset HEAD <file>
+
+# 克隆远程仓库到本地
+git clone <repository-url>
+
+# 拉取远程仓库的最新变更
+git pull
+
+# 推送本地改动到远程仓库
+git push
+
+# 创建新分支
+git branch <branch-name>
+
+# 切换到指定分支
+git checkout <branch-name>
+
+# 创建并切换到新分支
+git checkout -b <branch-name>
+
+# 合并指定分支到当前分支
+git merge <branch-name>
+
+# 删除分支
+git branch -d <branch-name>
+
+# 查看远程仓库信息
+git remote -v
+
+# 查看所有分支以及当前所在分支
+git branch
+
+# 查看工作区和暂存区之间、暂存区和最新提交之间的差异
+git diff
+
+# 添加远程仓库
+git remote add <remote-name> <remote-url>
+
+# 从远程仓库拉取最新变更，但不合并到本地分支
+git fetch
+
+# 以简洁的单行形式查看提交历史
+git log --oneline
+
+# 查看远程仓库的详细信息
+git remote show <remote-name>
+
+# 列出所有标签
+git tag
+
+# 创建一个新标签
+git tag <tag-name>
+
+# 推送所有标签到远程仓库
+git push --tags 
+
+# 删除文件
+git rm <filename>
+
+# 提交删除
+git commit -m "删除文件"
+
+# 撤销删除（恢复文件到最新提交状态）
+git checkout -- <filename>
+
+# 删除远程仓库
+git remote rm <remote-name>
+
+# 删除标签
+git tag -d <tag-name>
+
+# 删除分支
+git branch -d <branch-name>
+
+# 删除本地仓库
+git
 2024-02-26 11:07:38
 2024-02-26 11:09:15
 2024-02-26 11:09:37
